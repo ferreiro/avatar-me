@@ -1,0 +1,38 @@
+{
+  "name": "avatar-me",
+  "version": "0.0.1",
+  "description": "Simple node module to retrieves a user avatar given an email or a user name Edit",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferreiro/avatar-me.git"
+  },
+  "keywords": [
+    "avatar",
+    "gmail",
+    "avatar",
+    "user",
+    "avatar",
+    "profile",
+    "profile",
+    "pic",
+    "gravatar"
+  ],
+  "author": "Jorge Ferreiro <jorge@ferreiro.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ferreiro/avatar-me/issues"
+  },
+  "homepage": "https://github.com/ferreiro/avatar-me#readme",
+  "dependencies": {
+    "gravatar": "^1.6.0",
+    "request": "^2.81.0",
+    "validator": "^7.0.0"
+  },
+  "devDependencies": {
+    "standard": "^10.0.1"
+  }
+}
