@@ -31,5 +31,5 @@ avatarMe.fetchAvatar('jorge@ferreiro.me', 'jorge', (err, avatar) => {
 
 # Contribute!
 
-* Bugs, Pull Requests or feature requests? Go here! [avatar-me Github repository](https://github.com/ferreiro/avatar-me)
+* Bugs, Pull Requests or feature requests? Go here! [avatar-me Github repository](https://github.com/ferreiro/avatar-me/issues)
 * Or... Send me an email jorge [AT] ferreiro [DOT] me
