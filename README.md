@@ -1,5 +1,6 @@
 # avatar-me
-Simple node module to retrieves a user avatar given an email or a user name
+
+Simple node module to retrieves a user avatar given an email or a user name from Google, gravatar or a default image.
 
 # How to use it?
 
@@ -27,3 +28,8 @@ avatarMe.fetchAvatar('jorge@ferreiro.me', 'jorge', (err, avatar) => {
   console.log(avatar)
 })
 ```
+
+# Contribute!
+
+* Bugs, Pull Requests or feature requests? Go here! [avatar-me Github repository](https://github.com/ferreiro/avatar-me)
+* Or... Send me an email jorge [AT] ferreiro [DOT] me
