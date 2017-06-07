@@ -1,6 +1,8 @@
-# avatar-me
+![Avatar me logo](./assets/logo_avatar_me_npm_package_google_images.png)
 
 Simple node module to retrieves a user avatar given an email or a user name from Google, gravatar or a default image.
+
+**Changelog:** [Change all the changes to this project here](./CHANGELOG.md)
 
 ## How to use it?
 
@@ -15,6 +17,7 @@ avatarMe.fetchAvatar('jorge@ferreiro.me', 'jorge', (err, avatar) => {
 
 ## Configuration? Yes, please!
 
+### Basic configuration
 
 ```javascript
 var avatarMe = require('avatar-me')
@@ -30,9 +33,9 @@ avatarMe.fetchAvatar('jorge@ferreiro.me', 'jorge', (err, avatar) => {
 })
 ```
 
-## Add redis cache. No more extra api calls!
+### Cache configuration using Redis. No more extra api calls!
 
-In 0.0.6 we have introduced support to cache results with Redis!
+In **0.1.0** we have introduced support to cache results with Redis!
 Just add redis to the avatar me config and it will create a new redis client.
 
 ```javascript
