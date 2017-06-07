@@ -9,7 +9,7 @@ avatarMe.configure({
   }
 })
 
-avatarMe.fetchAvatar('jorge@ferreiro.me', 'jorge', (err, avatar) => {
+avatarMe.fetchAvatar('ferreiro.me@gmail.com', 'jorge', (err, avatar) => {
 	console.log(err)
 	console.log(avatar)
 })
