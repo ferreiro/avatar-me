@@ -1,6 +1,6 @@
 {
   "name": "avatar-me",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple node module to retrieves a user avatar given an email or a user name Edit",
   "main": "index.js",
   "scripts": {
