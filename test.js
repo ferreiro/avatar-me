@@ -6,7 +6,9 @@ avatarMe.configure({
   cache: {
 	  host: '127.0.0.1',
 	  port: '6379'
-  }
+  },
+  shouldFetchGmail: false,
+  shouldFetchGravatar: false
 })
 
 avatarMe.fetchAvatar('ferreiro.me@gmail.com', 'jorge', (err, avatar) => {
