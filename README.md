@@ -61,7 +61,7 @@ avatarMe.fetchAvatar('jorge@ferreiro.me', 'jorge', (err, avatar) => {
 
 ## Contribute!
 
-💬 [Create a new Pull Request](https://github.com/ferreiro/website/pulls)
+💬 [Create a new Pull Request](https://github.com/ferreiro/avatar-me/pulls)
 
 ## My social networks
 
