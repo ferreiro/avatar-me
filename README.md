@@ -33,7 +33,7 @@ avatarMe.fetchAvatar('jorge@ferreiro.me', 'jorge', (err, avatar) => {
 })
 ```
 
-### Cache configuration using Redis. No more extra api calls!
+### Cache configuration using Redis. No more extra api calls!
 
 In **0.1.0** we have introduced support to cache results with Redis!
 Just add redis to the avatar me config and it will create a new redis client.
