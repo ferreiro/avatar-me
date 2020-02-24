@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/ferreiro/avatar-me#readme",
   "dependencies": {
-    "async": "^2.3.0",
+    "async": "^3.2.0",
     "gravatar": "^1.6.0",
     "redis": "^2.7.1",
     "request": "^2.81.0",
